@@ -116,6 +116,8 @@ class CardProvider extends ChangeNotifier {
   }
 
   void resetPosition() {
+    print('gdfsgf');
+
     _position = Offset.zero;
     _angle = 0;
     isDragging = false;
